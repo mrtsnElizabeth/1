@@ -1,0 +1,26 @@
+2020-01-04 13:49:55.925155    ValueError:
+ Traceback (most recent call last):
+  File "C:\Users\Єлизавета\OneDrive\Documents\Python\python_oop\app.py", line 21, in <module>
+    john = Candidate('John Li', 'a@gmail.com', 'None', 'None', 'None')
+  File "C:\Users\Єлизавета\OneDrive\Documents\Python\python_oop\models\classRecruiter.py", line 8, in __init__
+    super().__init__(full_name, email, 0)
+  File "C:\Users\Єлизавета\OneDrive\Documents\Python\python_oop\models\classEmployee.py", line 6, in __init__
+    self.validate(email)
+  File "C:\Users\Єлизавета\OneDrive\Documents\Python\python_oop\models\classEmployee.py", line 12, in validate
+    raise ValueError
+ValueError
+ 
+
+2020-01-04 13:53:41.993982    ValueError:
+ Traceback (most recent call last):
+  File "C:\Users\Єлизавета\OneDrive\Documents\Python\python_oop\app.py", line 21, in <module>
+    john = Candidate('John Li', 'a@gmail.com', 'None', 'None', 'None')
+  File "C:\Users\Єлизавета\OneDrive\Documents\Python\python_oop\models\classRecruiter.py", line 8, in __init__
+    super().__init__(full_name, email, 0)
+  File "C:\Users\Єлизавета\OneDrive\Documents\Python\python_oop\models\classEmployee.py", line 6, in __init__
+    self.validate(email)
+  File "C:\Users\Єлизавета\OneDrive\Documents\Python\python_oop\models\classEmployee.py", line 12, in validate
+    raise ValueError
+ValueError
+ 
+
