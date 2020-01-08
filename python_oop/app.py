@@ -1,5 +1,5 @@
-from models.classProgrammer import Programmer, Recruiter
-from models.classRecruiter import Candidate, Vacancy
+from models.classes(Employee) import Programmer, Recruiter, Candidate
+from models.classes(Employee) import Vacancy
 import datetime
 import traceback
 
@@ -33,7 +33,3 @@ if __name__ == '__main__':
             f.write(message)
     finally:
     	print('Exception was handled. Check the logs for additional info.')
-
-
-
-    # print(bob.full_name, sam.email)
